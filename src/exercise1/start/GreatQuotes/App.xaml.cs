@@ -7,8 +7,10 @@ namespace GreatQuotes
     {
         public static MainViewModel MainViewModel { get; private set; }
 
+
         static App()
         {
+            
             MainViewModel = new MainViewModel();
         }
 
